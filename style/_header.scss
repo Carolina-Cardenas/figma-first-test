@@ -1,0 +1,43 @@
+@import "./nav";
+@import url("https://fonts.googleapis.com/css2?family=Josefin:wght@400;700&display=swap"); /* import font */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 820px;
+  width: 1170px;
+  background-image: url('../images/mountain_view_big.png'); 
+  color: #FFFFFF;
+}
+
+.header__btn{
+  width: 92px;
+  height: 53px;
+  background-color: #5474FD;
+  color: #FFFFFF;
+}
+.header__btn:hover{
+  opacity: 1; 
+}
+input{
+  width: 503px;
+  height: 53px;
+}
+.header__information{
+  margin: auto;
+  text-align: center;
+  font-family: "josefin,sans";
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header__title{
+  letter-spacing: 4.8px;
+  font-size: 48px;
+  text-align: middle;   
+}
+.header__label{
+  font-size: 22px;
+  letter-spacing:6.82px;
+ 
+}

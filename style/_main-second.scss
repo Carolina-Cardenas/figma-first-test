@@ -1,0 +1,27 @@
+.main__second{
+    background-color:#333333 ;
+    width: 1170px;
+    height: 337px;
+}
+.grid__container-font{
+    display: flex;
+    justify-content:space-evenly ;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #E8E8E8;
+    font-family:'Aleo';
+  
+}
+.font-first,
+.font-second,
+.font-third{
+    line-height:26px;
+    text-align: center;
+    letter-spacing: 0; 
+    margin-top: 160px;
+}
+
+
+
+
+
