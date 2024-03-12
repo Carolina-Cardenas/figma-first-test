@@ -12,7 +12,15 @@
 
 h3,label,p,h1{
     color: #E8E8E8;
-    text-align: left;
     line-height: 26px;
     padding: 25px;
 }
+@media screen and (max-width: 768px) {
+    @import 'responsive768';
+  }
+  @media screen and (max-width: 480px) {
+    @import 'responsive480';
+  }
+  @media screen and (max-width: 320px) {
+    @import 'responsive320';
+  }

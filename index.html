@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link href="./style/normalize.css" rel="stylesheet">
     <link href="./style/index.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
     <title>Document</title>
 </head>
 
@@ -15,10 +20,10 @@
             <h1 class="header__title">Bhromaon</h1>
             <label class="header__label">Safe Travel Anywhere</label>
             <br>
-            <div>
-                <input class="input" type="text" placeholder="Search your travel destination" />
+            <form>
+                <input class="input" type="text" required placeholder="Search your travel destination"  />
                 <button class="header__btn" type="submit">SEARCH</button>
-            </div>
+            </form>
             <label>Scroll Down</label>
         </section>
         <section class="header__nav">
