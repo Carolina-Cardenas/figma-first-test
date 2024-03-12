@@ -1,0 +1,43 @@
+.main__fifth {
+  background-image: url("./../images/background-4.png");
+  width: 1770px;
+  height: 731px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__container3 {
+  color: #333333;
+  width: 1120px;
+  height: 731px;
+  margin-top: 147px;
+  display: flex;
+}
+.img {
+  width: 445px;
+  height: 284px;
+  align-items: center;
+  display: flex;
+}
+.h1 {
+  font-family: "Aleo";
+  font-size: 36px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 128px;
+}
+.tourist {
+  text-align: center;
+  margin: auto;
+}
+.img-text {
+  display: flex;
+  justify-content: center;
+}
+.box__img {
+  height: 284px;
+}
+.box__text {
+  height: 284px;
+  background-color: #333333;
+}
