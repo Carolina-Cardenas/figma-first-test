@@ -1,26 +1,29 @@
-@import './header';
-@import './nav';
-@import './main-first';
-@import './main-second';
-@import './main-third';
-@import './main-fourth';
-@import './main-fifth';
-@import './footer';
-
-
-
-
-h3,label,p,h1{
-    color: #E8E8E8;
-    line-height: 26px;
-    padding: 25px;
+@import "./header";
+@import "./nav";
+@import "./main-first";
+@import "./main-second";
+@import "./main-third";
+@import "./main-fourth";
+@import "./main-fifth";
+@import "./footer";
+@import './button';
+h3,
+label,
+h1,h2 {
+  color: #e8e8e8;
+  line-height: 26px;
+  padding: 25px;
+}
+p {
+  color: #e8e8e8;
+  font-family: "Josefin", sans-serif;
 }
 @media screen and (max-width: 768px) {
-    @import 'responsive768';
-  }
-  @media screen and (max-width: 480px) {
-    @import 'responsive480';
-  }
-  @media screen and (max-width: 320px) {
-    @import 'responsive320';
-  }
+  @import "responsive768";
+}
+@media screen and (max-width: 480px) {
+  @import "responsive480";
+}
+@media screen and (max-width: 320px) {
+  @import "responsive320";
+}

@@ -1,0 +1,12 @@
+.button{
+    width: 112px;
+    height: 63px;
+    background-color: #496BFE;
+    margin: 25px;
+    transition: background-color 0.3s ease;
+    opacity: 1;
+}
+.button:hover{
+    scale: (1.2);
+    opacity: 1;
+}
