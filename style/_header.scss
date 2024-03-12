@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 820px;
-  width: 1170px;
+  width: 1770px;
   background-image: url('../images/mountain_view_big.png'); 
   color: #FFFFFF;
 }
@@ -16,9 +16,12 @@
   height: 53px;
   background-color: #5474FD;
   color: #FFFFFF;
-}
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
 .header__btn:hover{
-  opacity: 1; 
+   transform: scale(1.2);
+}
 }
 input{
   width: 503px;
@@ -27,7 +30,7 @@ input{
 .header__information{
   margin: auto;
   text-align: center;
-  font-family: "josefin,sans";
+  font-family: 'Josefin',sans-serif;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -35,9 +38,10 @@ input{
   letter-spacing: 4.8px;
   font-size: 48px;
   text-align: middle;   
+ text-transform: uppercase;
 }
 .header__label{
   font-size: 22px;
   letter-spacing:6.82px;
- 
+  margin-bottom: 48px;
 }

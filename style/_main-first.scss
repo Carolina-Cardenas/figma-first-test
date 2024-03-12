@@ -2,7 +2,7 @@
 
 .main-first{
     background-image: url('../images/background.png') ;
-    width: 1170px;
+    width: 1770px;
     display: flex;
 }
 .grid__container {
@@ -19,11 +19,15 @@
   .first {
     grid-column: 1/2;
     grid-row: 2/3;
+    width: 560px;
+    margin-left: 15px;
   }
   .second {
     grid-column: 2/3;
     grid-row: 1/4;
     margin-top: 60px;
+    display: flex;
+    align-items: center;
   }
   .info {
     color: #E8E8E8;
@@ -33,7 +37,7 @@
     line-height: 26px;
     font-size: 16px;
     letter-spacing:1.6px;
-    margin-left: 30%;
+    margin-left: 330px;
    
    
   }
@@ -69,4 +73,20 @@
     margin-top: 20px;
     margin-left: 25px;
   }
-  
+  .images{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 10px;
+  }
+    .grid__images{
+      display: flex;
+      align-self: flex-start;
+   
+    }
+    .grid__images2{
+      display: flex;
+      align-self: flex-end;
+      margin-left: 25px;
+      
+    }

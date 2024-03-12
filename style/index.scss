@@ -1,3 +1,12 @@
 @import './header';
 @import './nav';
 @import './main-first';
+@import './main-second';
+@import './main-third';
+
+h3,label,p{
+    color: #E8E8E8;
+    text-align: left;
+    line-height: 26px;
+    padding: 25px;
+}

@@ -1,6 +1,6 @@
 .main__second{
     background-color:#333333 ;
-    width: 1170px;
+    width: 1770px;
     height: 337px;
 }
 .grid__container-font{
@@ -19,7 +19,17 @@
     text-align: center;
     letter-spacing: 0; 
     margin-top: 160px;
+    transition: background-color 0.3s ease;
 }
+.font-first,
+.font-second,
+.font-third:hover{
+opacity: 0.7;
+}
+
+    
+
+
 
 
 
